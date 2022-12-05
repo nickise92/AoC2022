@@ -1,4 +1,4 @@
-# Advent of Code - day 3
+# Advent of Code 2022 - Day 3
 
 # Opening input.txt reading it and close the file.
 fd = open("input.txt", "r")
