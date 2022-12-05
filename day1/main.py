@@ -3,6 +3,7 @@
 # Opening input file
 fd = open("input.txt", "r")
 lines = fd.readlines()
+fd.close()
 
 # PART 1
 # Defining function to find max value from input file
