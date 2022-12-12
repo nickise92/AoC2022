@@ -16,7 +16,7 @@ alph = lowercase_alphabet + uppercase_alphabet
 for i in range(1,53):
     priority[alph[i - 1]] = i
 
-# PART 1
+# =========================== PART 1 =========================== #
 res = 0
 flag = 0
 c = ''
@@ -35,7 +35,7 @@ for line in lines:
     
 print(f"Priority: {res}")
 
-# PART 2
+# =========================== PART 2 =========================== #
 def find_in(row, c):
     for t in row:
         if c == t:

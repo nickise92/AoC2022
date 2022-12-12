@@ -5,7 +5,7 @@ fd = open("input.txt", "r")
 lines = fd.readlines()
 fd.close()
 
-# PART 1
+# =========================== PART 1 =========================== #
 # Defining function to find max value from input file
 def find_max(lines):
     value = 0
@@ -27,7 +27,7 @@ def find_max(lines):
 first = find_max(lines)
 print(f"Result part 1: {first}")
 
-# PART 2
+# =========================== PART 2 =========================== #
 def find_next(lines, ctrl_value):
     next_max = 0
     value = 0
